@@ -1,0 +1,199 @@
+@charset "utf-8";
+/*------------------------------Reset style Starts-------------------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; }
+/* remember to define focus styles! */
+:focus { outline: 0; }
+ul { list-style: none; }
+/* tables still need 'cellspacing="0"' in the markup */
+table { border-collapse: separate; border-spacing: 0; }
+caption, th, td { text-align: left; font-weight: normal; }
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+strong { font-weight:bold; }
+img { margin:0; }
+/*------------------------------Reset style Ends-------------------------------*/
+
+/*-----------------------------------float start-------------------------------*/
+.fltrt { float: right; }
+.fltlft { float: left; }
+.clear { clear:both; font-size:0px; line-height:1px; height:0px}
+/*-----------------------------------float ends--------------------------------*/
+
+/*---------------------body starts here ---------------------------------------*/
+body{font-family:"Myriad Pro", Arial, Helvetica, sans-serif; font-weight:normal;   font-size:13px;  line-height:17px;  background:#cadddf url(../images/mainBg.gif) left top repeat;   }
+/*---------------------body ends here ---------------------------------------*/
+
+#mainCont{
+	margin-right:auto;
+	margin-left:auto;
+	width:833px;
+}
+
+/*---Common Wrapper Style Starts ----*/
+
+a  {
+text-decoration : none;
+border : 0;
+color : #0b689e;
+cursor:pointer;
+
+}
+
+a:hover
+{
+text-decoration : underline;
+border : 0;
+color : #0b689e;
+cursor:pointer;
+}
+
+a img, a:hover img {
+text-decoration : none;
+border : 0;
+cursor:pointer;
+}
+/*---Common Wrapper Style Ends ----*/
+
+
+#MainWrapper    {display:block; margin:0 auto; padding:62px 0 0 0; position:relative; }
+.leftBg {display:block;position:absolute; left:20%  }
+.rightBg {display:block;position:absolute;margin-top:9px;margin-left:364px;float:left; background:url("../images/lightImg.png");height:703px;width:188px;}
+
+.navWrapper {display:block; position:relative;height:25px; width:517px; z-index:99999999; top:20px; right:20px; }
+
+.socialLink {display:block;  float:left; }
+.navPannel {display:block; background:url(../images/navBg.png) left top no-repeat; width:445px; height:25px;margin-right:3px; float:right;z-index:999;}
+.navPannel ul {display:block; list-style-type:none;text-align:center;float:right;}
+.navPannel ul li { display:block; float:left; list-style-type:none; background:url(../images/seprator.png) right 7px no-repeat; padding:3px 12px 0 8px; }
+.navPannel ul li.nobg {background:none;}
+.navPannel ul li a { color:#5a4a42; font-style:normal; font-weight:bold; font-size:12px; text-decoration:none;}
+.navPannel ul li a:hover , .navPannel ul li.active a {color:#bb2926; text-decoration:none;}
+
+
+
+
+.textContain {display:block;  padding:20px 10px 10px 10px; }
+.textContain p {display:block; color:#4d4d4d; font-size:12px; font-style:normal; font-weight:normal; }
+.redTxt {color:#1271a3; font-size:12px;  }
+.blueTxt {color:#c1272d; font-size:12px; }
+
+.fooreWrapper {display:block; width:100%;text-align:center; padding:10px 0 26px 0;color:#404041; font-style:normal; font-weight:normal; font-size:11px; }
+.footerNav {display:block; text-align:center; }
+.footerNav ul {display:block; width:325px;margin-left:auto;margin-right:auto;}
+.footerNav ul li {display:block; float:left; font-weight:bold;}
+.footerNav ul li a {color:#404041; font-style:normal; font-weight:normal; font-size:12px; }
+.footerNav ul li a:hover {color:#404041;}
+.footerNav h2 {color:#404041; font-size:12px; font-style:normal; font-weight:normal; }
+
+/*---Inner Contact Page Starts----*/
+#InMainWrapper    {display:block; margin:0 auto; width:471px; }
+.InlogoPannel {display:block; padding:54px 0 36px 0; text-align:center; }
+.InBodyWrapper {display:block; padding:34px 0 96px 0; }
+.InBodyContain {display:block; background:url(../images/InBodyBg2.png) left top no-repeat; width:480px; height:354px; }
+.postBox{display:block; padding:148px 0 0 62px; width:45px; height:20px; float:left;}
+
+
+.textAreaPannel {display:block; width:175px; padding:89px 0 0px 0px;float:left;padding-left:20px;}
+.textAreaPannel h3 {color:#404041; font-style:normal; font-weight:normal; font-size:12px; }
+.txtArBg {display:block; float:left; }
+.txtArBg textarea { display:block; background:none; float:left; border:none; width:175px; height:160px; overflow:hidden;}
+
+
+.inputBoxPannel {display:block; float:left; width:140px;}
+.flag {display:block; padding:70px 0 0 35px; float:left;}
+
+
+.inputnav {display:block; width:140px; padding-top:70px;}
+.inputnav ul {display:block; padding:0 0 0 0px;}
+.inputnav ul li {display:block; }
+.inputnav ul li.padone {display:block; float:left; padding:94px 0 0 62px; height:14px;}
+.inputnav ul li.padtwo {display:block; float:left; padding:22px 0 0 62px; height:14px;}
+.inputnav ul li.padthree {display:block; float:left; padding:19px 0 0 62px; height:14px;}
+.inputnav ul li.padfour {display:block; float:left; padding:19px 0 0 62px; height:14px;}
+.inputnav ul li .inputxt {float:left; width:62px; height:15px;    }
+.inputnav ul li .inputxt input { width:90px; height:15px; background:none; border:none; padding:0 3px 0 5px; display:block; }
+
+.inputnav ul li .txtright {display:block; float:left; padding:0 0 0 3px; }
+.inputnav ul li .txtright span {display:block; float:left; color:#000; font-size:12px; font-style:normal; font-weight:normal; width:43px;text-align:right;}
+
+
+
+.InfooreWrapper {display:block;  width:471px; padding:0 0 20px 0; }
+.InfooterNav {display:block; text-align:center; color:#404041; font-style:normal; font-weight:normal; font-size:12px; width:471px; }
+.InfooterNav ul {display:block;  padding:0 0 0 100px; }
+.InfooterNav ul li {display:block; float:left; }
+.InfooterNav ul li a {color:#404041; font-style:normal; font-weight:normal; font-size:12px; }
+.InfooterNav ul li a:hover {color:#404041; }
+.InfooterNav h2 {color:#404041; display:block; float:left; font-size:12px; display:block; font-style:normal; font-weight:normal; width:471px; padding:10px 0 0 0; }
+
+
+/*---Inner Contact Page Ends----*/
+
+
+/*---Inner track Page Start----*/
+#Tra_Wrapper {display:block; width:541px; margin:0 auto; padding:135px 0 0 0; position:relative;}
+.Tra_In_Wrapper {display:block; background:#FFF; border:1px solid #736357; }
+.Tra_Body {display:block; text-align:center;  }
+.tralogo {display:block; position:relative; top:-88px; }
+
+
+.tranavPannel {display:block; height:25px;  margin-top:-63px; padding:0 0 0 50px;   }
+.tranavPannel ul {display:block; list-style-type:none; text-align:center;float:right;width:90%; }
+.tranavPannel ul li { display:block; float:left; list-style-type:none; background:url(../images/seprator.png) right 7px no-repeat; padding:3px 8px 0 8px; }
+.tranavPannel ul li.nobg {background:none;}
+.tranavPannel ul li a { color:#5a4a42; font-style:normal; font-weight:bold; font-size:12px; text-decoration:none;}
+.tranavPannel ul li a:hover , .tranavPannel ul li.active a {color:#bb2926; text-decoration:none;}
+
+
+.trafooreWrapper {display:block; width:541px; text-align:center;}
+.trafooterNav {display:block; text-align:center; color:#404041; font-style:normal; font-weight:bold; font-size:12px; width:541px; }
+.trafooterNav ul {display:block;  padding:0 0 0 120px; }
+.trafooterNav ul li {display:block; float:left;   }
+.trafooterNav ul li a {color:#404041; font-style:normal; font-weight:bold; font-size:12px;}
+.trafooterNav ul li a:hover {color:#404041;}
+.trafooterNav h2 {color:#404041; display:block; float:left; font-size:12px; display:block; font-style:normal; font-weight:bold; width:541px; padding:10px 0 10px 0;   }
+
+.sec_Two {display:block; padding:10px 0 10px 0;}
+#wrote_title{
+	font-weight: bold;
+    text-decoration: underline;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.highlighted_link {
+	box-shadow: 1px 2px 6px 1px #8D8D8D;
+    margin-bottom: 8px;
+    padding: 4px 11px 4px 4px;
+}
+.highlighted_link a {
+	color: #000000;
+	display: block;
+}
+.highlighted_link a:hover {
+	text-decoration: none;
+}
+.tra_body_contain {display:block; text-align:right; padding:0 55px 0 55px; }
+.tra_body_contain_fb_gallery{display:block;}
+.tra_body_contain h4 {color:#4d4d4d; font-size:12px; font-style:normal; font-weight:normal; }
+.tra_body_contain ul li {list-style:disc outside;}
+
+.leftBox {display:block; padding:31px 0 0 0; width:427px;  }
+.leftBox ul {display:block; float:left; width:427px;}
+.leftBox ul li {display:block; float:left;}
+.leftBox ul li span.LeftImg {display:block; float:left; width:90px; height:90px; padding:0 0 19px 0;}
+.leftBox ul li span.rightBox {display:block; float:left;  padding:0 0 0 20px; width:315px; color:#4d4d4d; font-size:12px; font-style:normal; font-weight:normal; }
+
+.trasocialLink {display:block; position:absolute; top:98px; right:10px;}
+
+.topLeft_sec {display:block; position:absolute; top:-20px; left:-115px;}
+
+
+
+/*---Inner track Page Ends----*/
+
+.panel {display:block; background:url(../images/tranceBg.png) left top; width:306px !important;margin-right:58px; margin-top:-16px; overflow:hidden; clear:both; }
+.flip {display:block; padding:150px 5px 0 0; z-index:99 }
+.flip a {display:inline-block; width:400px; height:239px; }
+
+
+

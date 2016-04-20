@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="rtl">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>צור קשר</title>
+<link rel="icon" href="images/favicon.gif" type="image/gif" />
+<meta name="description" content="לונדון אישי הינו מיזם המציע שירות סיורים בעברית ובהתאמה אישית במגוון יעדים ברחבי העיר לונדון. מאחורי המיזם עומדת גלי קנור, לונדונית כבר כמה שנים" />
+<meta name="description" content=" 'לונדון אישי' הינו מיזם המציע שירות סיורים בעברית ובהתאמה אישית במגוון יעדים ברחבי העיר לונדון." />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js/functions.js"></script>
+</head>
+<body style="width:auto;">
+<div id="mainCont">
+
+ <div id="InMainWrapper">
+
+     <!--Inner Logo Pannel Starts -->
+     <p class="InlogoPannel"><a href="#"><img src="images/smallLogo.png" alt="" /></a></p>
+     <!--Inner Logo Pannel Ends -->
+
+     <!--Top Nav Starts-->
+     <div class="navPannel">
+       <ul>
+         <li class="active"> <a href="contact.html">צור קשר</a></li>
+              <!--
+              <li> <a href="services.html">שירותים נוספים</a></li>
+              -->
+              <li> <a href="wrote.html">ממליצים עלינו</a></li>
+              <li> <a href="tips.html">טיפים</a></li>
+              <li> <a href="tracks.html">הסיורים שלנו ושרותים נספים</a></li>
+              <li> <a href="about.html">אודות</a></li>
+              <li class="nobg"> <a href="index.html">בית</a></li>
+        </ul>
+     <p class="clear">&nbsp;</p>
+     </div>
+     <!--Top Nav Ends-->
+
+     <p class="clear">&nbsp;</p>
+
+     <!--Body Wrapper Starts-->
+     <div class="InBodyWrapper">
+          	<p style="text-align:center;font-weight:bold;direction:rtl;font-size:17px;">
+			לפרטים נוספים צרו קשר עם גלי<br />
+טלפון אנגלי:
+ <span style="direction:ltr;">7884273466 44+</span>
+<br />
+                            גלי - טלפון ישראלי:
+03-7200466
+<br />
+           info@londonishi.com
+		</p>
+        <div class="InBodyContain">
+                 <form name="contact" action="contact.php" method="POST">
+                 <!--Post Bg Starts-->
+                 <div class="postBox"><input type="image" src="images/telegram2.png" alt="" tabindex="6"/></div>
+		<input type="hidden" name="submit" value="1" />
+                 <!--Post Bg Ends-->
+
+                 <!--Text Area Starts-->
+                 <div class="textAreaPannel">
+                     <div class="txtArBg"><textarea name="content" cols="10" rows="20" tabindex="5"></textarea></div>
+                 </div>
+                 <!--Text Area Ends-->
+
+                 <!--Input Box Starts-->
+                 <div class="inputBoxPannel">
+
+                      <div class="flag"><!--<a href="#"> <img src="images/flagImg.png" alt="" /></a>--> </div>
+                      <div class="inputnav">
+                       <ul>
+                          <li class="padone">
+                            <div class="inputxt"><input type="text" name="firstname" tabindex="1"/></div> <div class="txtright"><span></span></div>
+                          </li>
+                          <li class="padtwo">
+                            <div class="inputxt"><input type="text" name="lastname" tabindex="2"/></div> <div class="txtright"><span></span></div>
+                          </li>
+                          <li class="padthree">
+                            <div class="inputxt"><input type="text" name="email" tabindex="3"/></div><div class="txtright"><span></span></div>
+                          </li>
+			<li class="padfour">
+                            <div class="inputxt"><input type="text" name="phone" tabindex="4"/></div><div class="txtright"><span></span></div>
+                          </li>
+                       </ul>
+                       <p class="clear">&nbsp;</p>
+                      </div>
+
+                 <p class="clear">&nbsp;</p>
+                 </div>
+                 <!--Input Box Ends-->
+
+        <p class="clear">&nbsp;</p>
+        </div>
+     <p class="clear">&nbsp;</p>
+     </div>
+     <!--Body Wrapper Starts-->
+
+    <!--Footer Wrapper Starts-->
+     <div class="fooreWrapper" style="left:-42px;">
+     <div class="footerNav" style="text-align:center;">
+           <ul>
+ 		 <li style="direction:ltr;">+44 7884273466 </li>
+		<li>טלפון אנגלי: </li>
+               <li>&nbsp;|&nbsp; </li>
+   <li>03-7200466</li>
+               <li>גלי טלפון ישראלי: </li>
+           </ul>
+      <p class="clear">&nbsp;</p>
+      </div>
+	<span align="center" style="font-weight:bold;">info@londonishi.com</span>
+        <h2><a href="http://nlconnection.eu/limcadesign.html" target="_blank">Site Design By Limcadesign</a></h2>
+     <p class="clear">&nbsp;</p>
+     </div>
+     <!--Footer Wrapper Ends-->
+
+ <p class="clear">&nbsp;</p>
+ </div>
+</div>
+</body>
+</html>
